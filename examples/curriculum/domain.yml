@@ -1,0 +1,42 @@
+intents:
+  - salut
+  - adeu
+  - qui-ets
+  - formacio
+  - idiomes
+
+responses:
+  utter_salut:
+  - text: "Eiiii"
+  - text: "Holaaaa"
+  - text: "Benvingut!"
+
+  utter_adeu:
+  - text: "Adeu siau"
+  - text: "que vagi bé"
+  - text: "torna aviat"
+
+  utter_qui-ets:
+  - text: "Doncs sóc el currículum de l'Oriol Canalias"   
+  - text: "Sóc l'Oriol en forma de bot"
+
+  utter_formacio:
+  - text: "Doncs de formació així en general: \n\
+     - universistat autonoma de barcelona \n\
+     - cursos varis de java \n\
+     - Certificacions de agilitat \n\
+     - incontables cursos online \n\
+
+     El meu github: github.com/iundarigun \n\
+     i el meu linkedin: linkedin.com/oriol.canalias"
+  utter_idiomes:
+  - text: "Parlo català, castellà, portuguès ... i una mica d'anglès"
+  - text: "Els meus idiomes natius són el català i el castellà. \
+     Parlo molt bé el portuguès .. i em defenso amb l'anglès"
+  utter_default:
+  - text: "ups, no sé si t'he entès bé eh"
+  - text: "Explica'm millor en què et puc ajudar"
+  - text: "Val, ara treu-te el mitjó de la boca i torna-hi"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
